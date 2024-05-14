@@ -33,6 +33,7 @@ Private Sub cmdCalculate_Click()
     
     tenure = tbxDuration
     
+    MsgBox "Hello"
     If tenure <= 2 Then
         years = 1
     ElseIf tenure > 2 And tenure <= 5 Then
